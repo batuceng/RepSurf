@@ -12,7 +12,7 @@ import torch
 import datetime
 import logging
 from pathlib import Path
-
+print(os.listdir(), file=open("demo.txt", "w"))
 from dataset.ScanObjectNNDataLoader import ScanObjectNNDataLoader
 from modules.ptaug_utils import transform_point_cloud, scale_point_cloud, get_aug_args
 from modules.pointnet2_utils import sample
@@ -275,5 +275,6 @@ def main(args):
 
 
 if __name__ == '__main__':
+    
     args = parse_args()
     main(args)

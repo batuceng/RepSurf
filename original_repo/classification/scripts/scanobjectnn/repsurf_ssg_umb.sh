@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -v
 
-python3 tool/train_cls_scanobjectnn.py \
+python3 train_cls_scanobjectnn.py \
           --cuda_ops \
           --batch_size 64 \
           --model repsurf.repsurf_ssg_umb \

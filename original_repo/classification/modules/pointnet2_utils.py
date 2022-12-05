@@ -8,8 +8,8 @@ import torch
 try:
     from modules.pointops.functions.pointops import furthestsampling, gathering, ballquery, knnquery, \
         grouping, interpolation, nearestneighbor
-except:
-    raise Exception('Failed to load pointops')
+except Exception as e:
+    raise Exception(e, '\nFailed to load pointops')
 
 
 def square_distance(src, dst):

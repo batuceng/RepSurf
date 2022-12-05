@@ -1,0 +1,35 @@
+2022-11-30 16:36:06,921 - Model - INFO - PARAMETER ...
+2022-11-30 16:36:06,921 - Model - INFO - Namespace(aug_scale=False, aug_shift=False, batch_size=64, cuda_ops=True, data_dir='./data', decay_rate=0.0001, decay_step=20, epoch=250, gpus=['0'], group_size=8, init=None, learning_rate=0.001, log_dir='repsurf_cls_ssg_umb', log_root='./log', min_val=100, model='repsurf.repsurf_ssg_umb', n_workers=12, num_point=1024, optimizer='Adam', return_center=True, return_dist=True, return_polar=True, scheduler='step', seed=2800, umb_pool='sum')
+2022-11-30 16:36:06,921 - Model - INFO - Load dataset ...
+2022-12-05 19:59:57,482 - Model - INFO - PARAMETER ...
+2022-12-05 19:59:57,483 - Model - INFO - Namespace(aug_scale=False, aug_shift=False, batch_size=64, cuda_ops=True, data_dir='./data', decay_rate=0.0001, decay_step=20, epoch=250, gpus=['0'], group_size=8, init=None, learning_rate=0.001, log_dir='repsurf_cls_ssg_umb', log_root='./log', min_val=100, model='repsurf.repsurf_ssg_umb', n_workers=12, num_point=1024, optimizer='Adam', return_center=True, return_dist=True, return_polar=True, scheduler='step', seed=2800, umb_pool='sum')
+2022-12-05 19:59:57,483 - Model - INFO - Load dataset ...
+2022-12-05 20:36:32,476 - Model - INFO - PARAMETER ...
+2022-12-05 20:36:32,476 - Model - INFO - Namespace(aug_scale=False, aug_shift=False, batch_size=64, cuda_ops=True, data_dir='./data', decay_rate=0.0001, decay_step=20, epoch=250, gpus=['0'], group_size=8, init=None, learning_rate=0.001, log_dir='repsurf_cls_ssg_umb', log_root='./log', min_val=100, model='repsurf.repsurf_ssg_umb', n_workers=12, num_point=1024, optimizer='Adam', return_center=True, return_dist=True, return_polar=True, scheduler='step', seed=2800, umb_pool='sum')
+2022-12-05 20:36:32,476 - Model - INFO - Load dataset ...
+2022-12-05 20:37:31,256 - Model - INFO - PARAMETER ...
+2022-12-05 20:37:31,256 - Model - INFO - Namespace(aug_scale=False, aug_shift=False, batch_size=64, cuda_ops=True, data_dir='./data', decay_rate=0.0001, decay_step=20, epoch=250, gpus=['0'], group_size=8, init=None, learning_rate=0.001, log_dir='repsurf_cls_ssg_umb', log_root='./log', min_val=100, model='repsurf.repsurf_ssg_umb', n_workers=12, num_point=1024, optimizer='Adam', return_center=True, return_dist=True, return_polar=True, scheduler='step', seed=2800, umb_pool='sum')
+2022-12-05 20:37:31,256 - Model - INFO - Load dataset ...
+2022-12-05 20:37:37,931 - Model - INFO - No existing model, starting training from scratch...
+2022-12-05 20:37:37,933 - Model - INFO - Start training...
+2022-12-05 20:37:37,933 - Model - INFO - Epoch 1 (1/250):
+2022-12-05 20:39:29,114 - Model - INFO - Train Instance Accuracy: 56.73, Loss: 1.631769
+2022-12-05 20:39:29,114 - Model - INFO - Epoch 2 (2/250):
+2022-12-05 20:41:19,287 - Model - INFO - Train Instance Accuracy: 73.53, Loss: 1.247496
+2022-12-05 20:41:19,288 - Model - INFO - Epoch 3 (3/250):
+2022-12-05 20:43:11,317 - Model - INFO - Train Instance Accuracy: 79.03, Loss: 1.121445
+2022-12-05 20:43:11,317 - Model - INFO - Epoch 4 (4/250):
+2022-12-05 20:45:01,431 - Model - INFO - Train Instance Accuracy: 83.13, Loss: 1.035723
+2022-12-05 20:45:01,432 - Model - INFO - Epoch 5 (5/250):
+2022-12-05 20:46:51,500 - Model - INFO - Train Instance Accuracy: 85.02, Loss: 0.990925
+2022-12-05 20:46:51,500 - Model - INFO - Epoch 6 (6/250):
+2022-12-05 20:48:43,381 - Model - INFO - Train Instance Accuracy: 87.60, Loss: 0.936064
+2022-12-05 20:48:43,381 - Model - INFO - Epoch 7 (7/250):
+2022-12-05 20:50:34,162 - Model - INFO - Train Instance Accuracy: 89.59, Loss: 0.893560
+2022-12-05 20:50:34,162 - Model - INFO - Epoch 8 (8/250):
+2022-12-05 20:52:25,792 - Model - INFO - Train Instance Accuracy: 90.77, Loss: 0.862181
+2022-12-05 20:52:25,793 - Model - INFO - Epoch 9 (9/250):
+2022-12-05 20:54:17,637 - Model - INFO - Train Instance Accuracy: 91.23, Loss: 0.843521
+2022-12-05 20:54:17,637 - Model - INFO - Epoch 10 (10/250):
+2022-12-05 20:56:09,501 - Model - INFO - Train Instance Accuracy: 92.94, Loss: 0.811253
+2022-12-05 20:56:09,502 - Model - INFO - Epoch 11 (11/250):
