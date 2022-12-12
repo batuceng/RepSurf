@@ -6,9 +6,9 @@ log_dir='repsurf_umb_A5'
 
 python3 tool/train.py --log_dir ${log_dir} --dataset S3DIS \
           --batch_size 8 \
-          --batch_size_val 24 \
-          --workers 24 \
-          --gpus 0 1 2 3 \
+          --batch_size_val 12 \
+          --workers 16 \
+          --gpus 0 1 \
           --model repsurf.repsurf_umb_ssg \
           --optimizer AdamW \
           --min_val 60 \

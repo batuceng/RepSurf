@@ -1,1 +1,1 @@
-['util', '__init__.py', 'h5_files.zip', 'README.md', 'demo.txt', 'models', 'init.sh', 'log', 'train_cls_scanobjectnn.py', 'data', 'modules', 'scripts', 'tool', 'dataset']
+['util', '__init__.py', 'README.md', 'demo.txt', 'models', 'init.sh', 'log', 'train_cls_scanobjectnn.py', 'data', 'modules', 'scripts', 'tool', 'dataset']

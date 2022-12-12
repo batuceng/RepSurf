@@ -1,0 +1,192 @@
+[2022-12-12 22:27:21,197 INFO train.py line 127 503095] {
+    "aug_args": {
+        "pert_factor": 0.03,
+        "pert_prob": 1.0,
+        "rot_prob": 0.5,
+        "scale_ani": true,
+        "scale_factor": 0.1,
+        "scale_prob": 1.0,
+        "shift_prob": 1.0,
+        "shifts": [
+            0.1,
+            0.1,
+            0.1
+        ]
+    },
+    "aug_flip": false,
+    "aug_jitter": false,
+    "aug_rotate": null,
+    "aug_scale": true,
+    "aug_shift": false,
+    "batch_size": 8,
+    "batch_size_val": 24,
+    "ckpt_dir": "log/PointAnalysis/log/S3DIS/pointnet2_A5/checkpoints",
+    "color_contrast": true,
+    "color_drop": false,
+    "color_jitter": true,
+    "color_shift": true,
+    "data_dir": "./data/S3DIS/trainval_fullarea",
+    "data_norm": "mean",
+    "dataset": "S3DIS",
+    "description": "S3DIS_A5",
+    "dist_url": "tcp://localhost:33169",
+    "distributed": true,
+    "epoch": 100,
+    "freeze_epoch": 1000000.0,
+    "gpus": [
+        "0",
+        "1"
+    ],
+    "group_size": 8,
+    "hs_shift": true,
+    "ignore_label": 255,
+    "in_channel": 6,
+    "is_eval": true,
+    "learning_rate": 0.006,
+    "log_dir": "log/PointAnalysis/log/S3DIS/pointnet2_A5/logs",
+    "log_root": "./log",
+    "loop": 30,
+    "lr_decay": 0.1,
+    "lr_decay_epochs": [
+        60,
+        80
+    ],
+    "min_val": 60,
+    "model": "pointnet2.pointnet2_ssg",
+    "momentum": 0.9,
+    "multiprocessing_distributed": true,
+    "ngpus_per_node": 2,
+    "num_class": 13,
+    "optimizer": "AdamW",
+    "pretrain": null,
+    "rank": 0,
+    "resume": null,
+    "return_polar": false,
+    "scheduler": "step",
+    "seed": 2000,
+    "start_epoch": 0,
+    "sync_bn": false,
+    "test_area": 5,
+    "train_freq": 250,
+    "val_freq": 1,
+    "voxel_max": 80000,
+    "voxel_size": 0.04,
+    "weight_decay": 0.01,
+    "workers": 24,
+    "world_size": 2
+}
+[2022-12-12 22:27:21,198 INFO train.py line 128 503095] => creating models ...
+[2022-12-12 22:27:21,198 INFO train.py line 129 503095] Classes: 13
+[2022-12-12 22:27:21,198 INFO train.py line 130 503095] Model(
+  (sa1): PointNetSetAbstraction(
+    (mlp_convs): ModuleList(
+      (0): Conv1d(9, 32, kernel_size=(1,), stride=(1,))
+      (1): Conv1d(32, 32, kernel_size=(1,), stride=(1,))
+      (2): Conv1d(32, 64, kernel_size=(1,), stride=(1,))
+    )
+    (mlp_bns): ModuleList(
+      (0): BatchNorm1d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (1): BatchNorm1d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (2): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+  )
+  (sa2): PointNetSetAbstraction(
+    (mlp_convs): ModuleList(
+      (0): Conv1d(67, 64, kernel_size=(1,), stride=(1,))
+      (1): Conv1d(64, 64, kernel_size=(1,), stride=(1,))
+      (2): Conv1d(64, 128, kernel_size=(1,), stride=(1,))
+    )
+    (mlp_bns): ModuleList(
+      (0): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (1): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+  )
+  (sa3): PointNetSetAbstraction(
+    (mlp_convs): ModuleList(
+      (0): Conv1d(131, 128, kernel_size=(1,), stride=(1,))
+      (1): Conv1d(128, 128, kernel_size=(1,), stride=(1,))
+      (2): Conv1d(128, 256, kernel_size=(1,), stride=(1,))
+    )
+    (mlp_bns): ModuleList(
+      (0): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (1): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (2): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+  )
+  (sa4): PointNetSetAbstraction(
+    (mlp_convs): ModuleList(
+      (0): Conv1d(259, 256, kernel_size=(1,), stride=(1,))
+      (1): Conv1d(256, 256, kernel_size=(1,), stride=(1,))
+      (2): Conv1d(256, 512, kernel_size=(1,), stride=(1,))
+    )
+    (mlp_bns): ModuleList(
+      (0): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (1): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (2): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+  )
+  (fp4): PointNetFeaturePropagation(
+    (mlp_convs): ModuleList(
+      (0): Linear(in_features=768, out_features=256, bias=True)
+      (1): Linear(in_features=256, out_features=256, bias=True)
+    )
+    (mlp_bns): ModuleList(
+      (0): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (1): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+  )
+  (fp3): PointNetFeaturePropagation(
+    (mlp_convs): ModuleList(
+      (0): Linear(in_features=384, out_features=256, bias=True)
+      (1): Linear(in_features=256, out_features=256, bias=True)
+    )
+    (mlp_bns): ModuleList(
+      (0): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (1): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+  )
+  (fp2): PointNetFeaturePropagation(
+    (mlp_convs): ModuleList(
+      (0): Linear(in_features=320, out_features=256, bias=True)
+      (1): Linear(in_features=256, out_features=128, bias=True)
+    )
+    (mlp_bns): ModuleList(
+      (0): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (1): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+  )
+  (fp1): PointNetFeaturePropagation(
+    (mlp_convs): ModuleList(
+      (0): Linear(in_features=128, out_features=128, bias=True)
+      (1): Linear(in_features=128, out_features=128, bias=True)
+      (2): Linear(in_features=128, out_features=128, bias=True)
+    )
+    (mlp_bns): ModuleList(
+      (0): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (1): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+  )
+  (classifier): Sequential(
+    (0): Linear(in_features=128, out_features=128, bias=True)
+    (1): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): ReLU(inplace=True)
+    (3): Dropout(p=0.5, inplace=False)
+    (4): Linear(in_features=128, out_features=13, bias=True)
+  )
+)
+[2022-12-12 22:27:21,199 INFO train.py line 133 503095] Total Number of Parameters: 0.968 M
+[2022-12-12 22:27:25,669 INFO train.py line 163 503095] Totally 204 samples in train set.
+[2022-12-12 22:27:25,669 INFO train.py line 164 503095] Totally 68 samples in val set.
+[2022-12-12 22:27:32,348 INFO distributed.py line 693 503095] Reducer buckets have been rebuilt in this iteration.
+[2022-12-12 22:33:00,000 INFO train.py line 326 503095] Epoch: [1/100][250/765] Batch 1.363 (1.337) Remain 28:19:30 Loss 1.1659 Accuracy 66.81
+[2022-12-12 22:38:36,110 INFO train.py line 326 503095] Epoch: [1/100][500/765] Batch 1.891 (1.341) Remain 28:18:26 Loss 0.7816 Accuracy 75.34
+[2022-12-12 22:44:13,827 INFO train.py line 326 503095] Epoch: [1/100][750/765] Batch 1.366 (1.344) Remain 28:17:03 Loss 0.6486 Accuracy 75.19
+[2022-12-12 22:44:35,607 INFO train.py line 345 503095] Train result at epoch [1/100]: mIoU / mAcc / OA 39.51 / 59.90 / 66.76
+[2022-12-12 22:50:17,878 INFO train.py line 326 503095] Epoch: [2/100][250/765] Batch 1.914 (1.369) Remain 28:42:24 Loss 0.7497 Accuracy 75.53
+[2022-12-12 22:55:52,768 INFO train.py line 326 503095] Epoch: [2/100][500/765] Batch 1.397 (1.354) Remain 28:18:11 Loss 0.6585 Accuracy 77.27
+[2022-12-12 23:01:31,919 INFO train.py line 326 503095] Epoch: [2/100][750/765] Batch 1.563 (1.355) Remain 28:13:30 Loss 0.4981 Accuracy 80.18
+[2022-12-12 23:01:52,239 INFO train.py line 345 503095] Train result at epoch [2/100]: mIoU / mAcc / OA 55.15 / 76.64 / 76.84
+[2022-12-12 23:07:38,164 INFO train.py line 326 503095] Epoch: [3/100][250/765] Batch 1.254 (1.384) Remain 28:43:08 Loss 0.4760 Accuracy 79.47
+[2022-12-12 23:13:11,334 INFO train.py line 326 503095] Epoch: [3/100][500/765] Batch 1.015 (1.358) Remain 28:05:43 Loss 0.3357 Accuracy 82.24
