@@ -11,3 +11,5 @@ Fixed Setup & Local Cuda variables, updated nvcc. No Commits.
 05/12/2022
 Finally, solved the issue with training script for classification (/mnt/disk5/batu/myprojects/DL2022proj/RepSurf/original_repo/classification/train_cls_scanobjectnn.py). Issue was solved by renaming data/h5_files as data/ScanObjectNN. After that, run the trainig for 20 minutes and trained 10 epochs, loss details are available at log folder (No Checkpoint).
 
+12/12/2022
+Classification training is finished in the previous week. Took about 11 hours for 250 epochs. Overall accuracy is about 83.73% (Test Single Accuracy, )
