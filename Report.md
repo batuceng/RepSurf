@@ -13,3 +13,6 @@ Finally, solved the issue with training script for classification (/mnt/disk5/ba
 
 12/12/2022
 Classification training is finished in the previous week. Took about 11 hours for 250 epochs. Overall accuracy is about 83.73% (Test Single Accuracy, )
+
+16/12/2022
+Restarted Classification training to check reproducibility. Saved a copy of prev logs at 16122022log.zip. Also tried running repseurf_ssg_umbx2 (changed script gpu selection & train.py address) but got cuda kernel error currently.

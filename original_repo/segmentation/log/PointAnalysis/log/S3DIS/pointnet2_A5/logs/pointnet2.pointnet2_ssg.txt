@@ -190,3 +190,366 @@
 [2022-12-12 23:01:52,239 INFO train.py line 345 503095] Train result at epoch [2/100]: mIoU / mAcc / OA 55.15 / 76.64 / 76.84
 [2022-12-12 23:07:38,164 INFO train.py line 326 503095] Epoch: [3/100][250/765] Batch 1.254 (1.384) Remain 28:43:08 Loss 0.4760 Accuracy 79.47
 [2022-12-12 23:13:11,334 INFO train.py line 326 503095] Epoch: [3/100][500/765] Batch 1.015 (1.358) Remain 28:05:43 Loss 0.3357 Accuracy 82.24
+[2022-12-12 23:18:52,357 INFO train.py line 326 503095] Epoch: [3/100][750/765] Batch 1.467 (1.360) Remain 28:02:30 Loss 0.4120 Accuracy 81.57
+[2022-12-12 23:19:15,038 INFO train.py line 345 503095] Train result at epoch [3/100]: mIoU / mAcc / OA 62.79 / 83.35 / 80.90
+[2022-12-12 23:24:52,781 INFO train.py line 326 503095] Epoch: [4/100][250/765] Batch 0.535 (1.351) Remain 27:45:09 Loss 0.5185 Accuracy 80.40
+[2022-12-12 23:30:27,422 INFO train.py line 326 503095] Epoch: [4/100][500/765] Batch 1.578 (1.345) Remain 27:31:55 Loss 0.4783 Accuracy 81.23
+[2022-12-12 23:36:10,714 INFO train.py line 326 503095] Epoch: [4/100][750/765] Batch 1.010 (1.354) Remain 27:37:54 Loss 0.3589 Accuracy 84.38
+[2022-12-12 23:36:32,101 INFO train.py line 345 503095] Train result at epoch [4/100]: mIoU / mAcc / OA 67.75 / 86.98 / 83.80
+[2022-12-12 23:42:20,370 INFO train.py line 326 503095] Epoch: [5/100][250/765] Batch 0.709 (1.393) Remain 28:19:18 Loss 0.3608 Accuracy 82.97
+[2022-12-12 23:47:59,716 INFO train.py line 326 503095] Epoch: [5/100][500/765] Batch 1.308 (1.375) Remain 27:51:48 Loss 0.2354 Accuracy 89.84
+[2022-12-12 23:53:34,119 INFO train.py line 326 503095] Epoch: [5/100][750/765] Batch 1.814 (1.363) Remain 27:30:53 Loss 0.3743 Accuracy 84.76
+[2022-12-12 23:53:53,897 INFO train.py line 345 503095] Train result at epoch [5/100]: mIoU / mAcc / OA 72.08 / 89.65 / 86.30
+[2022-12-12 23:59:40,121 INFO train.py line 326 503095] Epoch: [6/100][250/765] Batch 1.663 (1.385) Remain 27:51:40 Loss 0.3836 Accuracy 85.65
+[2022-12-13 00:05:15,906 INFO train.py line 326 503095] Epoch: [6/100][500/765] Batch 0.684 (1.364) Remain 27:20:47 Loss 0.2845 Accuracy 87.69
+[2022-12-13 00:10:57,981 INFO train.py line 326 503095] Epoch: [6/100][750/765] Batch 1.285 (1.365) Remain 27:16:49 Loss 0.2924 Accuracy 90.01
+[2022-12-13 00:11:17,826 INFO train.py line 345 503095] Train result at epoch [6/100]: mIoU / mAcc / OA 75.56 / 91.54 / 88.39
+[2022-12-13 00:17:00,370 INFO train.py line 326 503095] Epoch: [7/100][250/765] Batch 1.162 (1.370) Remain 27:16:26 Loss 0.2272 Accuracy 91.01
+[2022-12-13 00:22:45,670 INFO train.py line 326 503095] Epoch: [7/100][500/765] Batch 1.243 (1.376) Remain 27:17:17 Loss 0.2084 Accuracy 91.10
+[2022-12-13 00:28:22,957 INFO train.py line 326 503095] Epoch: [7/100][750/765] Batch 1.211 (1.367) Remain 27:01:04 Loss 0.1460 Accuracy 93.29
+[2022-12-13 00:28:42,221 INFO train.py line 345 503095] Train result at epoch [7/100]: mIoU / mAcc / OA 78.79 / 93.04 / 90.20
+[2022-12-13 00:34:28,368 INFO train.py line 326 503095] Epoch: [8/100][250/765] Batch 1.497 (1.385) Remain 27:15:58 Loss 0.2221 Accuracy 90.62
+[2022-12-13 00:40:07,729 INFO train.py line 326 503095] Epoch: [8/100][500/765] Batch 0.921 (1.371) Remain 26:54:14 Loss 0.1871 Accuracy 91.80
+[2022-12-13 00:45:45,563 INFO train.py line 326 503095] Epoch: [8/100][750/765] Batch 1.499 (1.364) Remain 26:40:50 Loss 0.2839 Accuracy 89.51
+[2022-12-13 00:46:05,732 INFO train.py line 345 503095] Train result at epoch [8/100]: mIoU / mAcc / OA 80.30 / 93.68 / 91.01
+[2022-12-13 00:51:53,429 INFO train.py line 326 503095] Epoch: [9/100][250/765] Batch 1.093 (1.391) Remain 27:05:34 Loss 0.1559 Accuracy 93.29
+[2022-12-13 00:57:27,901 INFO train.py line 326 503095] Epoch: [9/100][500/765] Batch 1.011 (1.364) Remain 26:28:59 Loss 0.1991 Accuracy 93.30
+[2022-12-13 01:03:02,349 INFO train.py line 326 503095] Epoch: [9/100][750/765] Batch 1.067 (1.355) Remain 26:13:02 Loss 0.1602 Accuracy 92.48
+[2022-12-13 01:03:21,869 INFO train.py line 345 503095] Train result at epoch [9/100]: mIoU / mAcc / OA 83.05 / 94.78 / 92.33
+[2022-12-13 01:09:15,519 INFO train.py line 326 503095] Epoch: [10/100][250/765] Batch 1.342 (1.415) Remain 27:15:22 Loss 0.1436 Accuracy 93.71
+[2022-12-13 01:14:50,961 INFO train.py line 326 503095] Epoch: [10/100][500/765] Batch 1.104 (1.378) Remain 26:27:32 Loss 0.1362 Accuracy 93.87
+[2022-12-13 01:20:29,589 INFO train.py line 326 503095] Epoch: [10/100][750/765] Batch 0.582 (1.370) Remain 26:12:44 Loss 0.1341 Accuracy 93.44
+[2022-12-13 01:20:48,292 INFO train.py line 345 503095] Train result at epoch [10/100]: mIoU / mAcc / OA 83.61 / 95.02 / 92.73
+[2022-12-13 01:26:31,517 INFO train.py line 326 503095] Epoch: [11/100][250/765] Batch 2.059 (1.373) Remain 26:09:39 Loss 0.1019 Accuracy 94.78
+[2022-12-13 01:32:14,480 INFO train.py line 326 503095] Epoch: [11/100][500/765] Batch 1.447 (1.372) Remain 26:03:21 Loss 0.1838 Accuracy 91.75
+[2022-12-13 01:37:47,766 INFO train.py line 326 503095] Epoch: [11/100][750/765] Batch 0.389 (1.359) Remain 25:42:47 Loss 0.1658 Accuracy 92.73
+[2022-12-13 01:38:07,725 INFO train.py line 345 503095] Train result at epoch [11/100]: mIoU / mAcc / OA 84.48 / 95.32 / 93.14
+[2022-12-13 01:43:50,387 INFO train.py line 326 503095] Epoch: [12/100][250/765] Batch 1.420 (1.371) Remain 25:49:36 Loss 0.1411 Accuracy 94.68
+[2022-12-13 01:49:25,747 INFO train.py line 326 503095] Epoch: [12/100][500/765] Batch 1.528 (1.356) Remain 25:27:27 Loss 0.1472 Accuracy 93.97
+[2022-12-13 01:55:06,431 INFO train.py line 326 503095] Epoch: [12/100][750/765] Batch 1.307 (1.358) Remain 25:24:19 Loss 0.1274 Accuracy 93.95
+[2022-12-13 01:55:26,884 INFO train.py line 345 503095] Train result at epoch [12/100]: mIoU / mAcc / OA 84.50 / 95.24 / 93.29
+[2022-12-13 02:01:07,911 INFO train.py line 326 503095] Epoch: [13/100][250/765] Batch 1.586 (1.364) Remain 25:24:50 Loss 0.1219 Accuracy 94.39
+[2022-12-13 02:06:44,241 INFO train.py line 326 503095] Epoch: [13/100][500/765] Batch 1.602 (1.355) Remain 25:08:41 Loss 0.1080 Accuracy 95.22
+[2022-12-13 02:12:23,293 INFO train.py line 326 503095] Epoch: [13/100][750/765] Batch 0.805 (1.355) Remain 25:03:36 Loss 0.1782 Accuracy 92.42
+[2022-12-13 02:12:43,288 INFO train.py line 345 503095] Train result at epoch [13/100]: mIoU / mAcc / OA 87.96 / 96.53 / 94.68
+[2022-12-13 02:18:29,914 INFO train.py line 326 503095] Epoch: [14/100][250/765] Batch 1.456 (1.386) Remain 25:32:11 Loss 0.0977 Accuracy 95.31
+[2022-12-13 02:24:14,184 INFO train.py line 326 503095] Epoch: [14/100][500/765] Batch 1.894 (1.382) Remain 25:21:13 Loss 0.1185 Accuracy 95.73
+[2022-12-13 02:29:46,432 INFO train.py line 326 503095] Epoch: [14/100][750/765] Batch 1.499 (1.364) Remain 24:56:10 Loss 0.1426 Accuracy 93.79
+[2022-12-13 02:30:09,660 INFO train.py line 345 503095] Train result at epoch [14/100]: mIoU / mAcc / OA 87.63 / 96.45 / 94.59
+[2022-12-13 02:36:02,295 INFO train.py line 326 503095] Epoch: [15/100][250/765] Batch 1.334 (1.411) Remain 25:40:45 Loss 0.1821 Accuracy 92.21
+[2022-12-13 02:41:41,824 INFO train.py line 326 503095] Epoch: [15/100][500/765] Batch 1.250 (1.384) Remain 25:06:22 Loss 0.1182 Accuracy 94.55
+[2022-12-13 02:47:15,361 INFO train.py line 326 503095] Epoch: [15/100][750/765] Batch 1.203 (1.368) Remain 24:42:28 Loss 0.1529 Accuracy 93.53
+[2022-12-13 02:47:34,950 INFO train.py line 345 503095] Train result at epoch [15/100]: mIoU / mAcc / OA 85.09 / 95.40 / 93.70
+[2022-12-13 02:53:15,010 INFO train.py line 326 503095] Epoch: [16/100][250/765] Batch 1.812 (1.360) Remain 24:28:28 Loss 0.0908 Accuracy 95.28
+[2022-12-13 02:59:00,184 INFO train.py line 326 503095] Epoch: [16/100][500/765] Batch 1.655 (1.370) Remain 24:33:48 Loss 0.0799 Accuracy 96.04
+[2022-12-13 03:04:35,604 INFO train.py line 326 503095] Epoch: [16/100][750/765] Batch 1.698 (1.361) Remain 24:17:49 Loss 0.0820 Accuracy 95.66
+[2022-12-13 03:04:56,714 INFO train.py line 345 503095] Train result at epoch [16/100]: mIoU / mAcc / OA 89.63 / 97.07 / 95.44
+[2022-12-13 03:10:45,876 INFO train.py line 326 503095] Epoch: [17/100][250/765] Batch 0.832 (1.397) Remain 24:49:58 Loss 0.0912 Accuracy 96.37
+[2022-12-13 03:16:17,961 INFO train.py line 326 503095] Epoch: [17/100][500/765] Batch 1.847 (1.362) Remain 24:07:52 Loss 0.0929 Accuracy 95.37
+[2022-12-13 03:21:54,459 INFO train.py line 326 503095] Epoch: [17/100][750/765] Batch 0.820 (1.357) Remain 23:56:22 Loss 0.0810 Accuracy 95.63
+[2022-12-13 03:22:15,259 INFO train.py line 345 503095] Train result at epoch [17/100]: mIoU / mAcc / OA 88.30 / 96.61 / 94.93
+[2022-12-13 03:28:04,940 INFO train.py line 326 503095] Epoch: [18/100][250/765] Batch 1.694 (1.399) Remain 24:34:21 Loss 0.0820 Accuracy 96.38
+[2022-12-13 03:33:40,631 INFO train.py line 326 503095] Epoch: [18/100][500/765] Batch 1.678 (1.371) Remain 23:59:09 Loss 0.0950 Accuracy 96.05
+[2022-12-13 03:39:20,117 INFO train.py line 326 503095] Epoch: [18/100][750/765] Batch 1.707 (1.366) Remain 23:48:59 Loss 0.0733 Accuracy 95.82
+[2022-12-13 03:39:41,051 INFO train.py line 345 503095] Train result at epoch [18/100]: mIoU / mAcc / OA 90.52 / 97.32 / 95.81
+[2022-12-13 03:45:33,014 INFO train.py line 326 503095] Epoch: [19/100][250/765] Batch 1.227 (1.408) Remain 24:26:01 Loss 0.1049 Accuracy 94.81
+[2022-12-13 03:51:24,811 INFO train.py line 326 503095] Epoch: [19/100][500/765] Batch 1.393 (1.408) Remain 24:19:49 Loss 0.1003 Accuracy 95.71
+[2022-12-13 03:57:04,944 INFO train.py line 326 503095] Epoch: [19/100][750/765] Batch 1.727 (1.392) Remain 23:57:47 Loss 0.0709 Accuracy 96.10
+[2022-12-13 03:57:24,861 INFO train.py line 345 503095] Train result at epoch [19/100]: mIoU / mAcc / OA 88.17 / 96.58 / 94.95
+[2022-12-13 04:03:07,752 INFO train.py line 326 503095] Epoch: [20/100][250/765] Batch 0.944 (1.372) Remain 23:30:45 Loss 0.0871 Accuracy 96.43
+[2022-12-13 04:08:51,771 INFO train.py line 326 503095] Epoch: [20/100][500/765] Batch 0.975 (1.374) Remain 23:27:21 Loss 0.1676 Accuracy 93.16
+[2022-12-13 04:14:31,445 INFO train.py line 326 503095] Epoch: [20/100][750/765] Batch 1.130 (1.369) Remain 23:16:29 Loss 0.1287 Accuracy 94.49
+[2022-12-13 04:14:52,813 INFO train.py line 345 503095] Train result at epoch [20/100]: mIoU / mAcc / OA 89.07 / 96.83 / 95.37
+[2022-12-13 04:20:39,045 INFO train.py line 326 503095] Epoch: [21/100][250/765] Batch 1.534 (1.385) Remain 23:26:50 Loss 0.0813 Accuracy 96.07
+[2022-12-13 04:26:07,016 INFO train.py line 326 503095] Epoch: [21/100][500/765] Batch 1.467 (1.348) Remain 22:44:07 Loss 0.1152 Accuracy 95.69
+[2022-12-13 04:31:50,738 INFO train.py line 326 503095] Epoch: [21/100][750/765] Batch 1.245 (1.357) Remain 22:47:24 Loss 0.0724 Accuracy 96.48
+[2022-12-13 04:32:10,185 INFO train.py line 345 503095] Train result at epoch [21/100]: mIoU / mAcc / OA 90.55 / 97.37 / 95.89
+[2022-12-13 04:37:57,576 INFO train.py line 326 503095] Epoch: [22/100][250/765] Batch 1.368 (1.390) Remain 23:13:50 Loss 0.0535 Accuracy 96.98
+[2022-12-13 04:43:39,526 INFO train.py line 326 503095] Epoch: [22/100][500/765] Batch 1.458 (1.379) Remain 22:57:10 Loss 0.1210 Accuracy 94.67
+[2022-12-13 04:49:18,870 INFO train.py line 326 503095] Epoch: [22/100][750/765] Batch 0.780 (1.372) Remain 22:44:22 Loss 0.0717 Accuracy 96.46
+[2022-12-13 04:49:37,560 INFO train.py line 345 503095] Train result at epoch [22/100]: mIoU / mAcc / OA 88.72 / 96.73 / 95.25
+[2022-12-13 04:55:21,469 INFO train.py line 326 503095] Epoch: [23/100][250/765] Batch 0.986 (1.376) Remain 22:42:19 Loss 0.1257 Accuracy 94.98
+[2022-12-13 05:00:57,240 INFO train.py line 326 503095] Epoch: [23/100][500/765] Batch 1.268 (1.359) Remain 22:20:32 Loss 0.0723 Accuracy 96.37
+[2022-12-13 05:06:30,540 INFO train.py line 326 503095] Epoch: [23/100][750/765] Batch 1.365 (1.351) Remain 22:06:19 Loss 0.0617 Accuracy 96.54
+[2022-12-13 05:06:49,815 INFO train.py line 345 503095] Train result at epoch [23/100]: mIoU / mAcc / OA 91.81 / 97.70 / 96.36
+[2022-12-13 05:12:26,420 INFO train.py line 326 503095] Epoch: [24/100][250/765] Batch 1.177 (1.346) Remain 21:56:13 Loss 0.0897 Accuracy 95.64
+[2022-12-13 05:17:58,698 INFO train.py line 326 503095] Epoch: [24/100][500/765] Batch 1.235 (1.338) Remain 21:42:11 Loss 0.1072 Accuracy 95.41
+[2022-12-13 05:23:32,948 INFO train.py line 326 503095] Epoch: [24/100][750/765] Batch 0.915 (1.338) Remain 21:36:22 Loss 0.0872 Accuracy 96.12
+[2022-12-13 05:23:51,933 INFO train.py line 345 503095] Train result at epoch [24/100]: mIoU / mAcc / OA 88.71 / 96.72 / 95.13
+[2022-12-13 05:29:32,903 INFO train.py line 326 503095] Epoch: [25/100][250/765] Batch 1.295 (1.364) Remain 21:55:54 Loss 0.0745 Accuracy 95.97
+[2022-12-13 05:35:01,785 INFO train.py line 326 503095] Epoch: [25/100][500/765] Batch 1.408 (1.340) Remain 21:27:00 Loss 0.0624 Accuracy 97.22
+[2022-12-13 05:40:33,503 INFO train.py line 326 503095] Epoch: [25/100][750/765] Batch 1.140 (1.335) Remain 21:17:19 Loss 0.0643 Accuracy 96.58
+[2022-12-13 05:40:51,808 INFO train.py line 345 503095] Train result at epoch [25/100]: mIoU / mAcc / OA 91.58 / 97.65 / 96.35
+[2022-12-13 05:46:28,213 INFO train.py line 326 503095] Epoch: [26/100][250/765] Batch 1.577 (1.346) Remain 21:21:07 Loss 0.0528 Accuracy 97.36
+[2022-12-13 05:51:59,070 INFO train.py line 326 503095] Epoch: [26/100][500/765] Batch 1.044 (1.335) Remain 21:05:00 Loss 0.1713 Accuracy 92.95
+[2022-12-13 05:57:31,130 INFO train.py line 326 503095] Epoch: [26/100][750/765] Batch 1.174 (1.332) Remain 20:57:28 Loss 0.0843 Accuracy 95.91
+[2022-12-13 05:57:50,065 INFO train.py line 345 503095] Train result at epoch [26/100]: mIoU / mAcc / OA 88.92 / 96.72 / 95.35
+[2022-12-13 06:03:22,357 INFO train.py line 326 503095] Epoch: [27/100][250/765] Batch 0.667 (1.329) Remain 20:48:31 Loss 0.0582 Accuracy 97.34
+[2022-12-13 06:08:46,957 INFO train.py line 326 503095] Epoch: [27/100][500/765] Batch 1.685 (1.314) Remain 20:28:36 Loss 0.0959 Accuracy 96.10
+[2022-12-13 06:14:15,202 INFO train.py line 326 503095] Epoch: [27/100][750/765] Batch 1.839 (1.314) Remain 20:22:52 Loss 0.1142 Accuracy 95.12
+[2022-12-13 06:14:35,092 INFO train.py line 345 503095] Train result at epoch [27/100]: mIoU / mAcc / OA 91.96 / 97.77 / 96.46
+[2022-12-13 06:20:06,942 INFO train.py line 326 503095] Epoch: [28/100][250/765] Batch 1.413 (1.327) Remain 20:29:56 Loss 0.0686 Accuracy 96.51
+[2022-12-13 06:25:39,695 INFO train.py line 326 503095] Epoch: [28/100][500/765] Batch 1.562 (1.329) Remain 20:26:04 Loss 0.0729 Accuracy 96.40
+[2022-12-13 06:31:05,776 INFO train.py line 326 503095] Epoch: [28/100][750/765] Batch 1.171 (1.321) Remain 20:12:55 Loss 0.1560 Accuracy 94.57
+[2022-12-13 06:31:27,425 INFO train.py line 345 503095] Train result at epoch [28/100]: mIoU / mAcc / OA 91.76 / 97.72 / 96.43
+[2022-12-13 06:37:16,864 INFO train.py line 326 503095] Epoch: [29/100][250/765] Batch 1.557 (1.398) Remain 21:17:18 Loss 0.0734 Accuracy 96.88
+[2022-12-13 06:42:41,872 INFO train.py line 326 503095] Epoch: [29/100][500/765] Batch 1.181 (1.349) Remain 20:27:02 Loss 0.0504 Accuracy 97.38
+[2022-12-13 06:48:05,530 INFO train.py line 326 503095] Epoch: [29/100][750/765] Batch 1.101 (1.331) Remain 20:05:02 Loss 0.0667 Accuracy 96.70
+[2022-12-13 06:48:25,051 INFO train.py line 345 503095] Train result at epoch [29/100]: mIoU / mAcc / OA 90.71 / 97.38 / 96.04
+[2022-12-13 06:53:57,244 INFO train.py line 326 503095] Epoch: [30/100][250/765] Batch 1.813 (1.329) Remain 19:57:19 Loss 0.0669 Accuracy 96.83
+[2022-12-13 06:59:26,699 INFO train.py line 326 503095] Epoch: [30/100][500/765] Batch 1.367 (1.323) Remain 19:46:52 Loss 0.1312 Accuracy 94.50
+[2022-12-13 07:04:59,639 INFO train.py line 326 503095] Epoch: [30/100][750/765] Batch 1.481 (1.326) Remain 19:43:53 Loss 0.0539 Accuracy 96.97
+[2022-12-13 07:05:21,623 INFO train.py line 345 503095] Train result at epoch [30/100]: mIoU / mAcc / OA 90.35 / 97.24 / 95.87
+[2022-12-13 07:10:59,684 INFO train.py line 326 503095] Epoch: [31/100][250/765] Batch 1.360 (1.352) Remain 20:01:13 Loss 0.0578 Accuracy 97.52
+[2022-12-13 07:16:24,712 INFO train.py line 326 503095] Epoch: [31/100][500/765] Batch 1.189 (1.326) Remain 19:32:33 Loss 0.1102 Accuracy 96.43
+[2022-12-13 07:21:54,924 INFO train.py line 326 503095] Epoch: [31/100][750/765] Batch 1.383 (1.324) Remain 19:25:28 Loss 0.0670 Accuracy 96.18
+[2022-12-13 07:22:14,148 INFO train.py line 345 503095] Train result at epoch [31/100]: mIoU / mAcc / OA 92.43 / 97.92 / 96.65
+[2022-12-13 07:27:52,521 INFO train.py line 326 503095] Epoch: [32/100][250/765] Batch 1.009 (1.353) Remain 19:45:04 Loss 0.0833 Accuracy 96.16
+[2022-12-13 07:33:19,848 INFO train.py line 326 503095] Epoch: [32/100][500/765] Batch 1.021 (1.331) Remain 19:20:11 Loss 0.0802 Accuracy 95.83
+[2022-12-13 07:38:42,693 INFO train.py line 326 503095] Epoch: [32/100][750/765] Batch 1.106 (1.318) Remain 19:03:04 Loss 0.2239 Accuracy 89.39
+[2022-12-13 07:39:01,311 INFO train.py line 345 503095] Train result at epoch [32/100]: mIoU / mAcc / OA 90.52 / 97.34 / 95.99
+[2022-12-13 07:44:32,844 INFO train.py line 326 503095] Epoch: [33/100][250/765] Batch 1.117 (1.326) Remain 19:04:13 Loss 0.0644 Accuracy 96.99
+[2022-12-13 07:50:02,708 INFO train.py line 326 503095] Epoch: [33/100][500/765] Batch 1.374 (1.323) Remain 18:55:50 Loss 0.0712 Accuracy 96.55
+[2022-12-13 07:55:30,466 INFO train.py line 326 503095] Epoch: [33/100][750/765] Batch 1.632 (1.319) Remain 18:46:58 Loss 0.0883 Accuracy 96.29
+[2022-12-13 07:55:49,333 INFO train.py line 345 503095] Train result at epoch [33/100]: mIoU / mAcc / OA 91.50 / 97.61 / 96.32
+[2022-12-13 08:01:26,571 INFO train.py line 326 503095] Epoch: [34/100][250/765] Batch 1.819 (1.349) Remain 19:06:42 Loss 0.0482 Accuracy 97.81
+[2022-12-13 08:06:59,957 INFO train.py line 326 503095] Epoch: [34/100][500/765] Batch 2.151 (1.341) Remain 18:54:34 Loss 0.1026 Accuracy 95.27
+[2022-12-13 08:12:28,794 INFO train.py line 326 503095] Epoch: [34/100][750/765] Batch 1.156 (1.333) Remain 18:41:43 Loss 0.0818 Accuracy 96.21
+[2022-12-13 08:12:50,280 INFO train.py line 345 503095] Train result at epoch [34/100]: mIoU / mAcc / OA 92.09 / 97.80 / 96.51
+[2022-12-13 08:18:30,070 INFO train.py line 326 503095] Epoch: [35/100][250/765] Batch 1.339 (1.359) Remain 18:58:03 Loss 0.0607 Accuracy 96.43
+[2022-12-13 08:24:08,437 INFO train.py line 326 503095] Epoch: [35/100][500/765] Batch 1.149 (1.356) Remain 18:50:01 Loss 0.0916 Accuracy 96.11
+[2022-12-13 08:29:40,139 INFO train.py line 326 503095] Epoch: [35/100][750/765] Batch 1.066 (1.346) Remain 18:36:13 Loss 0.0706 Accuracy 96.52
+[2022-12-13 08:29:58,734 INFO train.py line 345 503095] Train result at epoch [35/100]: mIoU / mAcc / OA 90.08 / 97.12 / 95.87
+[2022-12-13 08:35:32,505 INFO train.py line 326 503095] Epoch: [36/100][250/765] Batch 1.471 (1.335) Remain 18:20:52 Loss 0.0554 Accuracy 97.29
+[2022-12-13 08:41:01,868 INFO train.py line 326 503095] Epoch: [36/100][500/765] Batch 1.078 (1.326) Remain 18:08:05 Loss 0.0634 Accuracy 96.82
+[2022-12-13 08:46:25,717 INFO train.py line 326 503095] Epoch: [36/100][750/765] Batch 1.118 (1.316) Remain 17:54:09 Loss 0.0569 Accuracy 97.07
+[2022-12-13 08:46:48,233 INFO train.py line 345 503095] Train result at epoch [36/100]: mIoU / mAcc / OA 92.98 / 98.09 / 96.90
+[2022-12-13 08:52:19,203 INFO train.py line 326 503095] Epoch: [37/100][250/765] Batch 1.527 (1.324) Remain 17:54:45 Loss 0.0979 Accuracy 96.08
+[2022-12-13 08:57:47,676 INFO train.py line 326 503095] Epoch: [37/100][500/765] Batch 1.316 (1.319) Remain 17:45:12 Loss 0.0943 Accuracy 95.69
+[2022-12-13 09:03:17,194 INFO train.py line 326 503095] Epoch: [37/100][750/765] Batch 0.999 (1.319) Remain 17:39:30 Loss 0.0525 Accuracy 97.01
+[2022-12-13 09:03:39,287 INFO train.py line 345 503095] Train result at epoch [37/100]: mIoU / mAcc / OA 91.53 / 97.62 / 96.30
+[2022-12-13 09:09:02,027 INFO train.py line 326 503095] Epoch: [38/100][250/765] Batch 0.994 (1.291) Remain 17:11:34 Loss 0.1303 Accuracy 94.65
+[2022-12-13 09:14:38,753 INFO train.py line 326 503095] Epoch: [38/100][500/765] Batch 1.611 (1.319) Remain 17:28:25 Loss 0.0586 Accuracy 96.69
+[2022-12-13 09:20:11,439 INFO train.py line 326 503095] Epoch: [38/100][750/765] Batch 1.946 (1.323) Remain 17:26:03 Loss 0.0478 Accuracy 97.40
+[2022-12-13 09:20:31,496 INFO train.py line 345 503095] Train result at epoch [38/100]: mIoU / mAcc / OA 90.45 / 97.26 / 95.98
+[2022-12-13 09:26:11,478 INFO train.py line 326 503095] Epoch: [39/100][250/765] Batch 1.395 (1.360) Remain 17:49:20 Loss 0.0839 Accuracy 96.31
+[2022-12-13 09:31:45,276 INFO train.py line 326 503095] Epoch: [39/100][500/765] Batch 1.296 (1.348) Remain 17:34:00 Loss 0.0728 Accuracy 96.52
+[2022-12-13 09:37:16,901 INFO train.py line 326 503095] Epoch: [39/100][750/765] Batch 1.389 (1.341) Remain 17:22:56 Loss 0.0889 Accuracy 96.14
+[2022-12-13 09:37:37,331 INFO train.py line 345 503095] Train result at epoch [39/100]: mIoU / mAcc / OA 93.23 / 98.16 / 96.99
+[2022-12-13 09:43:14,299 INFO train.py line 326 503095] Epoch: [40/100][250/765] Batch 1.853 (1.348) Remain 17:22:40 Loss 0.0552 Accuracy 97.10
+[2022-12-13 09:48:52,899 INFO train.py line 326 503095] Epoch: [40/100][500/765] Batch 1.246 (1.351) Remain 17:19:34 Loss 0.0758 Accuracy 96.28
+[2022-12-13 09:54:22,560 INFO train.py line 326 503095] Epoch: [40/100][750/765] Batch 1.318 (1.340) Remain 17:05:39 Loss 0.1108 Accuracy 94.91
+[2022-12-13 09:54:42,871 INFO train.py line 345 503095] Train result at epoch [40/100]: mIoU / mAcc / OA 91.34 / 97.56 / 96.27
+[2022-12-13 10:00:20,727 INFO train.py line 326 503095] Epoch: [41/100][250/765] Batch 0.943 (1.351) Remain 17:08:12 Loss 0.0880 Accuracy 96.29
+[2022-12-13 10:05:40,972 INFO train.py line 326 503095] Epoch: [41/100][500/765] Batch 0.435 (1.316) Remain 16:35:55 Loss 0.0669 Accuracy 96.87
+[2022-12-13 10:11:11,235 INFO train.py line 326 503095] Epoch: [41/100][750/765] Batch 0.932 (1.318) Remain 16:31:39 Loss 0.0483 Accuracy 97.13
+[2022-12-13 10:11:31,093 INFO train.py line 345 503095] Train result at epoch [41/100]: mIoU / mAcc / OA 92.02 / 97.77 / 96.55
+[2022-12-13 10:17:08,212 INFO train.py line 326 503095] Epoch: [42/100][250/765] Batch 1.666 (1.348) Remain 16:48:45 Loss 0.0498 Accuracy 97.47
+[2022-12-13 10:22:34,878 INFO train.py line 326 503095] Epoch: [42/100][500/765] Batch 1.218 (1.328) Remain 16:27:35 Loss 0.1444 Accuracy 94.54
+[2022-12-13 10:28:04,301 INFO train.py line 326 503095] Epoch: [42/100][750/765] Batch 1.167 (1.324) Remain 16:19:37 Loss 0.0465 Accuracy 97.73
+[2022-12-13 10:28:23,733 INFO train.py line 345 503095] Train result at epoch [42/100]: mIoU / mAcc / OA 92.49 / 97.87 / 96.74
+[2022-12-13 10:33:52,064 INFO train.py line 326 503095] Epoch: [43/100][250/765] Batch 1.367 (1.313) Remain 16:05:43 Loss 0.0604 Accuracy 97.40
+[2022-12-13 10:39:21,725 INFO train.py line 326 503095] Epoch: [43/100][500/765] Batch 1.085 (1.316) Remain 16:02:11 Loss 0.0586 Accuracy 96.78
+[2022-12-13 10:45:01,401 INFO train.py line 326 503095] Epoch: [43/100][750/765] Batch 1.672 (1.330) Remain 16:07:04 Loss 0.0910 Accuracy 96.00
+[2022-12-13 10:45:21,830 INFO train.py line 345 503095] Train result at epoch [43/100]: mIoU / mAcc / OA 93.19 / 98.16 / 96.97
+[2022-12-13 10:50:57,807 INFO train.py line 326 503095] Epoch: [44/100][250/765] Batch 0.795 (1.344) Remain 16:11:04 Loss 0.0772 Accuracy 96.27
+[2022-12-13 10:56:27,552 INFO train.py line 326 503095] Epoch: [44/100][500/765] Batch 1.314 (1.331) Remain 15:56:31 Loss 0.0571 Accuracy 96.92
+[2022-12-13 11:02:00,419 INFO train.py line 326 503095] Epoch: [44/100][750/765] Batch 1.151 (1.331) Remain 15:50:59 Loss 0.0749 Accuracy 96.01
+[2022-12-13 11:02:21,040 INFO train.py line 345 503095] Train result at epoch [44/100]: mIoU / mAcc / OA 89.89 / 97.06 / 95.74
+[2022-12-13 11:07:57,227 INFO train.py line 326 503095] Epoch: [45/100][250/765] Batch 1.370 (1.345) Remain 15:54:32 Loss 0.0625 Accuracy 96.59
+[2022-12-13 11:13:29,480 INFO train.py line 326 503095] Epoch: [45/100][500/765] Batch 1.411 (1.337) Remain 15:43:23 Loss 0.0478 Accuracy 97.34
+[2022-12-13 11:19:00,499 INFO train.py line 326 503095] Epoch: [45/100][750/765] Batch 1.486 (1.333) Remain 15:34:49 Loss 0.0526 Accuracy 97.17
+[2022-12-13 11:19:18,925 INFO train.py line 345 503095] Train result at epoch [45/100]: mIoU / mAcc / OA 93.44 / 98.21 / 97.09
+[2022-12-13 11:24:55,579 INFO train.py line 326 503095] Epoch: [46/100][250/765] Batch 1.356 (1.347) Remain 15:38:41 Loss 0.0485 Accuracy 97.62
+[2022-12-13 11:30:23,027 INFO train.py line 326 503095] Epoch: [46/100][500/765] Batch 1.444 (1.328) Remain 15:20:19 Loss 0.2706 Accuracy 94.07
+[2022-12-13 11:35:55,893 INFO train.py line 326 503095] Epoch: [46/100][750/765] Batch 1.322 (1.329) Remain 15:15:32 Loss 0.0413 Accuracy 97.97
+[2022-12-13 11:36:18,000 INFO train.py line 345 503095] Train result at epoch [46/100]: mIoU / mAcc / OA 90.40 / 97.23 / 95.90
+[2022-12-13 11:41:53,305 INFO train.py line 326 503095] Epoch: [47/100][250/765] Batch 1.233 (1.341) Remain 15:17:49 Loss 0.0608 Accuracy 96.66
+[2022-12-13 11:47:29,571 INFO train.py line 326 503095] Epoch: [47/100][500/765] Batch 1.367 (1.343) Remain 15:13:33 Loss 0.0682 Accuracy 96.57
+[2022-12-13 11:53:05,479 INFO train.py line 326 503095] Epoch: [47/100][750/765] Batch 1.820 (1.343) Remain 15:08:04 Loss 0.0850 Accuracy 96.05
+[2022-12-13 11:53:25,163 INFO train.py line 345 503095] Train result at epoch [47/100]: mIoU / mAcc / OA 92.19 / 97.83 / 96.60
+[2022-12-13 11:59:11,472 INFO train.py line 326 503095] Epoch: [48/100][250/765] Batch 1.311 (1.385) Remain 15:30:17 Loss 0.0668 Accuracy 96.87
+[2022-12-13 12:04:54,216 INFO train.py line 326 503095] Epoch: [48/100][500/765] Batch 1.687 (1.378) Remain 15:19:45 Loss 0.0538 Accuracy 97.08
+[2022-12-13 12:10:30,346 INFO train.py line 326 503095] Epoch: [48/100][750/765] Batch 0.879 (1.367) Remain 15:06:35 Loss 0.0590 Accuracy 96.57
+[2022-12-13 12:10:53,611 INFO train.py line 345 503095] Train result at epoch [48/100]: mIoU / mAcc / OA 93.07 / 98.09 / 96.97
+[2022-12-13 12:16:33,488 INFO train.py line 326 503095] Epoch: [49/100][250/765] Batch 1.382 (1.359) Remain 14:55:40 Loss 0.0568 Accuracy 97.15
+[2022-12-13 12:22:19,906 INFO train.py line 326 503095] Epoch: [49/100][500/765] Batch 1.411 (1.373) Remain 14:58:35 Loss 0.0905 Accuracy 95.80
+[2022-12-13 12:27:58,139 INFO train.py line 326 503095] Epoch: [49/100][750/765] Batch 1.396 (1.366) Remain 14:48:36 Loss 0.1017 Accuracy 96.22
+[2022-12-13 12:28:19,678 INFO train.py line 345 503095] Train result at epoch [49/100]: mIoU / mAcc / OA 92.53 / 97.90 / 96.69
+[2022-12-13 12:34:11,742 INFO train.py line 326 503095] Epoch: [50/100][250/765] Batch 2.002 (1.408) Remain 15:09:50 Loss 0.0997 Accuracy 95.04
+[2022-12-13 12:39:55,736 INFO train.py line 326 503095] Epoch: [50/100][500/765] Batch 1.173 (1.392) Remain 14:53:37 Loss 0.0635 Accuracy 96.56
+[2022-12-13 12:45:33,206 INFO train.py line 326 503095] Epoch: [50/100][750/765] Batch 0.818 (1.378) Remain 14:38:50 Loss 0.0864 Accuracy 96.07
+[2022-12-13 12:45:54,666 INFO train.py line 345 503095] Train result at epoch [50/100]: mIoU / mAcc / OA 92.54 / 97.92 / 96.72
+[2022-12-13 12:51:34,421 INFO train.py line 326 503095] Epoch: [51/100][250/765] Batch 1.069 (1.359) Remain 14:20:42 Loss 0.0706 Accuracy 96.93
+[2022-12-13 12:57:19,128 INFO train.py line 326 503095] Epoch: [51/100][500/765] Batch 1.572 (1.369) Remain 14:21:16 Loss 0.0540 Accuracy 96.92
+[2022-12-13 13:03:01,897 INFO train.py line 326 503095] Epoch: [51/100][750/765] Batch 2.069 (1.370) Remain 14:16:01 Loss 0.0562 Accuracy 97.32
+[2022-12-13 13:03:21,466 INFO train.py line 345 503095] Train result at epoch [51/100]: mIoU / mAcc / OA 92.29 / 97.85 / 96.65
+[2022-12-13 13:09:02,367 INFO train.py line 326 503095] Epoch: [52/100][250/765] Batch 1.455 (1.364) Remain 14:06:13 Loss 0.0577 Accuracy 96.97
+[2022-12-13 13:14:36,415 INFO train.py line 326 503095] Epoch: [52/100][500/765] Batch 1.531 (1.350) Remain 13:52:05 Loss 0.1059 Accuracy 94.96
+[2022-12-13 13:20:17,974 INFO train.py line 326 503095] Epoch: [52/100][750/765] Batch 1.212 (1.355) Remain 13:49:48 Loss 0.0724 Accuracy 96.46
+[2022-12-13 13:20:39,791 INFO train.py line 345 503095] Train result at epoch [52/100]: mIoU / mAcc / OA 90.12 / 97.13 / 95.86
+[2022-12-13 13:26:20,680 INFO train.py line 326 503095] Epoch: [53/100][250/765] Batch 1.114 (1.364) Remain 13:48:48 Loss 0.0501 Accuracy 97.41
+[2022-12-13 13:32:07,117 INFO train.py line 326 503095] Epoch: [53/100][500/765] Batch 1.166 (1.375) Remain 13:49:49 Loss 0.0412 Accuracy 97.81
+[2022-12-13 13:37:46,914 INFO train.py line 326 503095] Epoch: [53/100][750/765] Batch 1.737 (1.369) Remain 13:41:00 Loss 0.0600 Accuracy 97.08
+[2022-12-13 13:38:07,148 INFO train.py line 345 503095] Train result at epoch [53/100]: mIoU / mAcc / OA 93.74 / 98.28 / 97.18
+[2022-12-13 13:43:58,341 INFO train.py line 326 503095] Epoch: [54/100][250/765] Batch 1.088 (1.405) Remain 13:55:57 Loss 0.0624 Accuracy 96.61
+[2022-12-13 13:49:37,736 INFO train.py line 326 503095] Epoch: [54/100][500/765] Batch 0.959 (1.381) Remain 13:36:09 Loss 0.0538 Accuracy 97.24
+[2022-12-13 13:55:15,256 INFO train.py line 326 503095] Epoch: [54/100][750/765] Batch 1.413 (1.371) Remain 13:24:19 Loss 0.0528 Accuracy 96.95
+[2022-12-13 13:55:36,255 INFO train.py line 345 503095] Train result at epoch [54/100]: mIoU / mAcc / OA 92.89 / 98.12 / 96.94
+[2022-12-13 14:01:33,092 INFO train.py line 326 503095] Epoch: [55/100][250/765] Batch 1.041 (1.427) Remain 13:51:11 Loss 0.0550 Accuracy 97.14
+[2022-12-13 14:06:55,681 INFO train.py line 326 503095] Epoch: [55/100][500/765] Batch 1.027 (1.359) Remain 13:05:38 Loss 0.1324 Accuracy 95.13
+[2022-12-13 14:12:39,933 INFO train.py line 326 503095] Epoch: [55/100][750/765] Batch 0.952 (1.365) Remain 13:03:27 Loss 0.0569 Accuracy 96.45
+[2022-12-13 14:13:01,630 INFO train.py line 345 503095] Train result at epoch [55/100]: mIoU / mAcc / OA 91.16 / 97.43 / 96.23
+[2022-12-13 14:18:39,863 INFO train.py line 326 503095] Epoch: [56/100][250/765] Batch 1.415 (1.353) Remain 12:50:35 Loss 0.0536 Accuracy 97.31
+[2022-12-13 14:24:01,961 INFO train.py line 326 503095] Epoch: [56/100][500/765] Batch 1.054 (1.321) Remain 12:26:43 Loss 0.0415 Accuracy 97.46
+[2022-12-13 14:29:36,860 INFO train.py line 326 503095] Epoch: [56/100][750/765] Batch 1.551 (1.327) Remain 12:24:45 Loss 0.0464 Accuracy 97.46
+[2022-12-13 14:29:57,473 INFO train.py line 345 503095] Train result at epoch [56/100]: mIoU / mAcc / OA 93.45 / 98.20 / 97.07
+[2022-12-13 14:35:34,622 INFO train.py line 326 503095] Epoch: [57/100][250/765] Batch 1.436 (1.349) Remain 12:30:56 Loss 0.0430 Accuracy 97.58
+[2022-12-13 14:41:02,975 INFO train.py line 326 503095] Epoch: [57/100][500/765] Batch 1.015 (1.331) Remain 12:15:35 Loss 0.0524 Accuracy 97.18
+[2022-12-13 14:46:29,058 INFO train.py line 326 503095] Epoch: [57/100][750/765] Batch 1.708 (1.322) Remain 12:05:10 Loss 0.1114 Accuracy 95.37
+[2022-12-13 14:46:50,212 INFO train.py line 345 503095] Train result at epoch [57/100]: mIoU / mAcc / OA 91.94 / 97.75 / 96.56
+[2022-12-13 14:52:27,997 INFO train.py line 326 503095] Epoch: [58/100][250/765] Batch 1.316 (1.351) Remain 12:15:07 Loss 0.0609 Accuracy 96.98
+[2022-12-13 14:57:56,835 INFO train.py line 326 503095] Epoch: [58/100][500/765] Batch 1.435 (1.333) Remain 11:59:50 Loss 0.0412 Accuracy 97.84
+[2022-12-13 15:03:31,631 INFO train.py line 326 503095] Epoch: [58/100][750/765] Batch 0.896 (1.335) Remain 11:55:20 Loss 0.0456 Accuracy 97.66
+[2022-12-13 15:03:50,503 INFO train.py line 345 503095] Train result at epoch [58/100]: mIoU / mAcc / OA 93.54 / 98.21 / 97.11
+[2022-12-13 15:09:25,464 INFO train.py line 326 503095] Epoch: [59/100][250/765] Batch 0.955 (1.340) Remain 11:51:53 Loss 0.0508 Accuracy 97.14
+[2022-12-13 15:14:54,429 INFO train.py line 326 503095] Epoch: [59/100][500/765] Batch 1.777 (1.328) Remain 11:39:59 Loss 0.0507 Accuracy 97.62
+[2022-12-13 15:20:27,379 INFO train.py line 326 503095] Epoch: [59/100][750/765] Batch 1.135 (1.329) Remain 11:35:09 Loss 0.0644 Accuracy 96.35
+[2022-12-13 15:20:47,439 INFO train.py line 345 503095] Train result at epoch [59/100]: mIoU / mAcc / OA 93.60 / 98.27 / 97.18
+[2022-12-13 15:26:30,698 INFO train.py line 326 503095] Epoch: [60/100][250/765] Batch 1.576 (1.373) Remain 11:52:01 Loss 0.0733 Accuracy 96.50
+[2022-12-13 15:31:54,424 INFO train.py line 326 503095] Epoch: [60/100][500/765] Batch 1.315 (1.334) Remain 11:26:12 Loss 0.0626 Accuracy 96.98
+[2022-12-13 15:37:22,095 INFO train.py line 326 503095] Epoch: [60/100][750/765] Batch 1.690 (1.326) Remain 11:16:41 Loss 0.1873 Accuracy 92.71
+[2022-12-13 15:37:43,143 INFO train.py line 345 503095] Train result at epoch [60/100]: mIoU / mAcc / OA 89.69 / 96.93 / 95.75
+[2022-12-13 15:43:16,551 INFO train.py line 326 503095] Epoch: [61/100][250/765] Batch 1.041 (1.334) Remain 11:14:35 Loss 0.0793 Accuracy 96.06
+[2022-12-13 15:48:44,473 INFO train.py line 326 503095] Epoch: [61/100][500/765] Batch 1.274 (1.323) Remain 11:03:31 Loss 0.0442 Accuracy 97.58
+[2022-12-13 15:54:13,629 INFO train.py line 326 503095] Epoch: [61/100][750/765] Batch 1.545 (1.321) Remain 10:57:01 Loss 0.0529 Accuracy 97.22
+[2022-12-13 15:54:33,583 INFO train.py line 345 503095] Train result at epoch [61/100]: mIoU / mAcc / OA 93.16 / 98.09 / 96.96
+[2022-12-13 15:54:33,585 INFO train.py line 351 503095] >>>>>>>>>>>>>>>> Start Evaluation >>>>>>>>>>>>>>>>
+[2022-12-13 16:02:31,778 INFO train.py line 401 503095] Val result: mIoU / mAcc / OA 61.80 / 70.41 / 86.78
+[2022-12-13 16:02:31,785 INFO train.py line 402 503095] Val loss: 1.2532
+[2022-12-13 16:02:31,785 INFO train.py line 405 503095] Class_0 Result: IoU / Acc 89.88/93.97
+[2022-12-13 16:02:31,786 INFO train.py line 405 503095] Class_1 Result: IoU / Acc 97.22/98.39
+[2022-12-13 16:02:31,786 INFO train.py line 405 503095] Class_2 Result: IoU / Acc 80.97/92.72
+[2022-12-13 16:02:31,786 INFO train.py line 405 503095] Class_3 Result: IoU / Acc 0.00/0.00
+[2022-12-13 16:02:31,786 INFO train.py line 405 503095] Class_4 Result: IoU / Acc 20.59/23.42
+[2022-12-13 16:02:31,786 INFO train.py line 405 503095] Class_5 Result: IoU / Acc 57.25/61.53
+[2022-12-13 16:02:31,786 INFO train.py line 405 503095] Class_6 Result: IoU / Acc 63.48/82.31
+[2022-12-13 16:02:31,786 INFO train.py line 405 503095] Class_7 Result: IoU / Acc 73.18/82.88
+[2022-12-13 16:02:31,786 INFO train.py line 405 503095] Class_8 Result: IoU / Acc 82.44/96.19
+[2022-12-13 16:02:31,787 INFO train.py line 405 503095] Class_9 Result: IoU / Acc 53.91/59.18
+[2022-12-13 16:02:31,787 INFO train.py line 405 503095] Class_10 Result: IoU / Acc 69.06/81.40
+[2022-12-13 16:02:31,787 INFO train.py line 405 503095] Class_11 Result: IoU / Acc 65.03/75.71
+[2022-12-13 16:02:31,787 INFO train.py line 405 503095] Class_12 Result: IoU / Acc 50.44/67.64
+[2022-12-13 16:02:31,787 INFO train.py line 406 503095] <<<<<<<<<<<<<<<<< End Evaluation <<<<<<<<<<<<<<<<<
+[2022-12-13 16:02:31,809 INFO train.py line 253 503095] Best validation mIoU updated to: 61.80
+[2022-12-13 16:08:23,192 INFO train.py line 326 503095] Epoch: [62/100][250/765] Batch 0.737 (1.406) Remain 11:33:02 Loss 0.0397 Accuracy 97.96
+[2022-12-13 16:14:02,930 INFO train.py line 326 503095] Epoch: [62/100][500/765] Batch 0.828 (1.382) Remain 11:15:48 Loss 0.0432 Accuracy 97.85
+[2022-12-13 16:19:46,956 INFO train.py line 326 503095] Epoch: [62/100][750/765] Batch 1.016 (1.380) Remain 11:09:02 Loss 0.0604 Accuracy 96.84
+[2022-12-13 16:20:06,077 INFO train.py line 345 503095] Train result at epoch [62/100]: mIoU / mAcc / OA 94.41 / 98.48 / 97.46
+[2022-12-13 16:20:06,080 INFO train.py line 351 503095] >>>>>>>>>>>>>>>> Start Evaluation >>>>>>>>>>>>>>>>
+[2022-12-13 16:28:00,868 INFO train.py line 401 503095] Val result: mIoU / mAcc / OA 59.68 / 69.56 / 85.90
+[2022-12-13 16:28:00,873 INFO train.py line 402 503095] Val loss: 1.4404
+[2022-12-13 16:28:00,874 INFO train.py line 405 503095] Class_0 Result: IoU / Acc 89.88/94.27
+[2022-12-13 16:28:00,874 INFO train.py line 405 503095] Class_1 Result: IoU / Acc 97.05/98.15
+[2022-12-13 16:28:00,874 INFO train.py line 405 503095] Class_2 Result: IoU / Acc 79.56/92.29
+[2022-12-13 16:28:00,874 INFO train.py line 405 503095] Class_3 Result: IoU / Acc 0.00/0.00
+[2022-12-13 16:28:00,874 INFO train.py line 405 503095] Class_4 Result: IoU / Acc 21.53/26.06
+[2022-12-13 16:28:00,874 INFO train.py line 405 503095] Class_5 Result: IoU / Acc 55.50/64.68
+[2022-12-13 16:28:00,874 INFO train.py line 405 503095] Class_6 Result: IoU / Acc 52.46/66.07
+[2022-12-13 16:28:00,874 INFO train.py line 405 503095] Class_7 Result: IoU / Acc 73.67/82.68
+[2022-12-13 16:28:00,874 INFO train.py line 405 503095] Class_8 Result: IoU / Acc 83.40/95.65
+[2022-12-13 16:28:00,874 INFO train.py line 405 503095] Class_9 Result: IoU / Acc 47.32/63.20
+[2022-12-13 16:28:00,874 INFO train.py line 405 503095] Class_10 Result: IoU / Acc 67.78/78.48
+[2022-12-13 16:28:00,874 INFO train.py line 405 503095] Class_11 Result: IoU / Acc 58.35/75.81
+[2022-12-13 16:28:00,874 INFO train.py line 405 503095] Class_12 Result: IoU / Acc 49.32/66.88
+[2022-12-13 16:28:00,874 INFO train.py line 406 503095] <<<<<<<<<<<<<<<<< End Evaluation <<<<<<<<<<<<<<<<<
+[2022-12-13 16:33:49,258 INFO train.py line 326 503095] Epoch: [63/100][250/765] Batch 1.318 (1.394) Remain 11:09:21 Loss 0.0937 Accuracy 95.90
+[2022-12-13 16:39:27,585 INFO train.py line 326 503095] Epoch: [63/100][500/765] Batch 1.331 (1.373) Remain 10:53:58 Loss 0.0485 Accuracy 96.97
+[2022-12-13 16:45:03,499 INFO train.py line 326 503095] Epoch: [63/100][750/765] Batch 1.281 (1.363) Remain 10:43:34 Loss 0.0483 Accuracy 97.35
+[2022-12-13 16:45:23,751 INFO train.py line 345 503095] Train result at epoch [63/100]: mIoU / mAcc / OA 89.90 / 97.06 / 95.92
+[2022-12-13 16:45:23,754 INFO train.py line 351 503095] >>>>>>>>>>>>>>>> Start Evaluation >>>>>>>>>>>>>>>>
+[2022-12-13 16:53:15,477 INFO train.py line 401 503095] Val result: mIoU / mAcc / OA 62.05 / 71.21 / 86.53
+[2022-12-13 16:53:15,483 INFO train.py line 402 503095] Val loss: 1.2790
+[2022-12-13 16:53:15,483 INFO train.py line 405 503095] Class_0 Result: IoU / Acc 89.21/93.63
+[2022-12-13 16:53:15,483 INFO train.py line 405 503095] Class_1 Result: IoU / Acc 97.47/98.79
+[2022-12-13 16:53:15,484 INFO train.py line 405 503095] Class_2 Result: IoU / Acc 80.51/91.58
+[2022-12-13 16:53:15,484 INFO train.py line 405 503095] Class_3 Result: IoU / Acc 0.00/0.00
+[2022-12-13 16:53:15,484 INFO train.py line 405 503095] Class_4 Result: IoU / Acc 17.49/19.87
+[2022-12-13 16:53:15,484 INFO train.py line 405 503095] Class_5 Result: IoU / Acc 57.33/64.56
+[2022-12-13 16:53:15,484 INFO train.py line 405 503095] Class_6 Result: IoU / Acc 61.84/81.84
+[2022-12-13 16:53:15,484 INFO train.py line 405 503095] Class_7 Result: IoU / Acc 75.26/86.25
+[2022-12-13 16:53:15,484 INFO train.py line 405 503095] Class_8 Result: IoU / Acc 87.43/94.96
+[2022-12-13 16:53:15,484 INFO train.py line 405 503095] Class_9 Result: IoU / Acc 59.69/66.95
+[2022-12-13 16:53:15,484 INFO train.py line 405 503095] Class_10 Result: IoU / Acc 68.39/79.53
+[2022-12-13 16:53:15,484 INFO train.py line 405 503095] Class_11 Result: IoU / Acc 61.19/79.28
+[2022-12-13 16:53:15,484 INFO train.py line 405 503095] Class_12 Result: IoU / Acc 50.90/68.54
+[2022-12-13 16:53:15,484 INFO train.py line 406 503095] <<<<<<<<<<<<<<<<< End Evaluation <<<<<<<<<<<<<<<<<
+[2022-12-13 16:53:15,505 INFO train.py line 253 503095] Best validation mIoU updated to: 62.05
+[2022-12-13 16:58:57,092 INFO train.py line 326 503095] Epoch: [64/100][250/765] Batch 1.218 (1.366) Remain 10:38:52 Loss 0.0495 Accuracy 97.34
+[2022-12-13 17:04:43,958 INFO train.py line 326 503095] Epoch: [64/100][500/765] Batch 0.749 (1.377) Remain 10:38:04 Loss 0.0485 Accuracy 97.48
+[2022-12-13 17:10:29,967 INFO train.py line 326 503095] Epoch: [64/100][750/765] Batch 1.328 (1.379) Remain 10:33:26 Loss 0.0954 Accuracy 95.59
+[2022-12-13 17:10:49,966 INFO train.py line 345 503095] Train result at epoch [64/100]: mIoU / mAcc / OA 92.19 / 97.78 / 96.65
+[2022-12-13 17:10:49,968 INFO train.py line 351 503095] >>>>>>>>>>>>>>>> Start Evaluation >>>>>>>>>>>>>>>>
+[2022-12-13 17:18:50,906 INFO train.py line 401 503095] Val result: mIoU / mAcc / OA 56.82 / 68.55 / 84.14
+[2022-12-13 17:18:50,909 INFO train.py line 402 503095] Val loss: 1.1821
+[2022-12-13 17:18:50,909 INFO train.py line 405 503095] Class_0 Result: IoU / Acc 90.18/94.43
+[2022-12-13 17:18:50,909 INFO train.py line 405 503095] Class_1 Result: IoU / Acc 96.86/98.26
+[2022-12-13 17:18:50,909 INFO train.py line 405 503095] Class_2 Result: IoU / Acc 78.54/88.28
+[2022-12-13 17:18:50,909 INFO train.py line 405 503095] Class_3 Result: IoU / Acc 0.00/0.00
+[2022-12-13 17:18:50,909 INFO train.py line 405 503095] Class_4 Result: IoU / Acc 20.38/25.53
+[2022-12-13 17:18:50,909 INFO train.py line 405 503095] Class_5 Result: IoU / Acc 45.04/48.75
+[2022-12-13 17:18:50,910 INFO train.py line 405 503095] Class_6 Result: IoU / Acc 52.88/71.02
+[2022-12-13 17:18:50,910 INFO train.py line 405 503095] Class_7 Result: IoU / Acc 69.69/85.80
+[2022-12-13 17:18:50,910 INFO train.py line 405 503095] Class_8 Result: IoU / Acc 79.51/84.57
+[2022-12-13 17:18:50,910 INFO train.py line 405 503095] Class_9 Result: IoU / Acc 40.18/77.25
+[2022-12-13 17:18:50,910 INFO train.py line 405 503095] Class_10 Result: IoU / Acc 62.40/72.49
+[2022-12-13 17:18:50,910 INFO train.py line 405 503095] Class_11 Result: IoU / Acc 57.31/72.55
+[2022-12-13 17:18:50,910 INFO train.py line 405 503095] Class_12 Result: IoU / Acc 45.66/72.17
+[2022-12-13 17:18:50,910 INFO train.py line 406 503095] <<<<<<<<<<<<<<<<< End Evaluation <<<<<<<<<<<<<<<<<
+[2022-12-13 17:24:45,386 INFO train.py line 326 503095] Epoch: [65/100][250/765] Batch 1.268 (1.418) Remain 10:44:54 Loss 0.0538 Accuracy 97.40
+[2022-12-13 17:30:25,853 INFO train.py line 326 503095] Epoch: [65/100][500/765] Batch 1.960 (1.390) Remain 10:26:22 Loss 0.0458 Accuracy 97.70
+[2022-12-13 17:36:07,096 INFO train.py line 326 503095] Epoch: [65/100][750/765] Batch 1.455 (1.382) Remain 10:16:52 Loss 0.0577 Accuracy 97.21
+[2022-12-13 17:36:29,727 INFO train.py line 345 503095] Train result at epoch [65/100]: mIoU / mAcc / OA 93.27 / 98.14 / 97.04
+[2022-12-13 17:36:29,730 INFO train.py line 351 503095] >>>>>>>>>>>>>>>> Start Evaluation >>>>>>>>>>>>>>>>
+[2022-12-13 17:44:46,727 INFO train.py line 401 503095] Val result: mIoU / mAcc / OA 60.96 / 69.33 / 86.37
+[2022-12-13 17:44:46,735 INFO train.py line 402 503095] Val loss: 1.3873
+[2022-12-13 17:44:46,735 INFO train.py line 405 503095] Class_0 Result: IoU / Acc 89.85/94.77
+[2022-12-13 17:44:46,735 INFO train.py line 405 503095] Class_1 Result: IoU / Acc 97.49/98.70
+[2022-12-13 17:44:46,736 INFO train.py line 405 503095] Class_2 Result: IoU / Acc 80.36/91.59
+[2022-12-13 17:44:46,736 INFO train.py line 405 503095] Class_3 Result: IoU / Acc 0.00/0.00
+[2022-12-13 17:44:46,736 INFO train.py line 405 503095] Class_4 Result: IoU / Acc 21.78/26.56
+[2022-12-13 17:44:46,736 INFO train.py line 405 503095] Class_5 Result: IoU / Acc 55.50/59.92
+[2022-12-13 17:44:46,736 INFO train.py line 405 503095] Class_6 Result: IoU / Acc 58.53/72.97
+[2022-12-13 17:44:46,736 INFO train.py line 405 503095] Class_7 Result: IoU / Acc 74.68/83.76
+[2022-12-13 17:44:46,736 INFO train.py line 405 503095] Class_8 Result: IoU / Acc 85.82/94.96
+[2022-12-13 17:44:46,736 INFO train.py line 405 503095] Class_9 Result: IoU / Acc 48.05/50.33
+[2022-12-13 17:44:46,736 INFO train.py line 405 503095] Class_10 Result: IoU / Acc 67.58/78.07
+[2022-12-13 17:44:46,736 INFO train.py line 405 503095] Class_11 Result: IoU / Acc 62.24/78.37
+[2022-12-13 17:44:46,736 INFO train.py line 405 503095] Class_12 Result: IoU / Acc 50.62/71.36
+[2022-12-13 17:44:46,736 INFO train.py line 406 503095] <<<<<<<<<<<<<<<<< End Evaluation <<<<<<<<<<<<<<<<<
+[2022-12-13 17:50:27,852 INFO train.py line 326 503095] Epoch: [66/100][250/765] Batch 1.131 (1.364) Remain 10:03:12 Loss 0.0426 Accuracy 97.78
+[2022-12-13 17:56:12,999 INFO train.py line 326 503095] Epoch: [66/100][500/765] Batch 1.412 (1.373) Remain 10:01:03 Loss 0.0501 Accuracy 97.24
+[2022-12-13 18:01:54,199 INFO train.py line 326 503095] Epoch: [66/100][750/765] Batch 1.266 (1.370) Remain 09:54:12 Loss 0.0895 Accuracy 94.53
+[2022-12-13 18:02:15,065 INFO train.py line 345 503095] Train result at epoch [66/100]: mIoU / mAcc / OA 94.09 / 98.40 / 97.34
+[2022-12-13 18:02:15,066 INFO train.py line 351 503095] >>>>>>>>>>>>>>>> Start Evaluation >>>>>>>>>>>>>>>>
+[2022-12-13 18:10:17,088 INFO train.py line 401 503095] Val result: mIoU / mAcc / OA 56.01 / 67.49 / 83.09
+[2022-12-13 18:10:17,093 INFO train.py line 402 503095] Val loss: 1.3434
+[2022-12-13 18:10:17,093 INFO train.py line 405 503095] Class_0 Result: IoU / Acc 89.32/92.90
+[2022-12-13 18:10:17,093 INFO train.py line 405 503095] Class_1 Result: IoU / Acc 96.61/97.96
+[2022-12-13 18:10:17,093 INFO train.py line 405 503095] Class_2 Result: IoU / Acc 75.06/88.60
+[2022-12-13 18:10:17,093 INFO train.py line 405 503095] Class_3 Result: IoU / Acc 0.00/0.09
+[2022-12-13 18:10:17,094 INFO train.py line 405 503095] Class_4 Result: IoU / Acc 25.36/45.05
+[2022-12-13 18:10:17,094 INFO train.py line 405 503095] Class_5 Result: IoU / Acc 54.17/60.15
+[2022-12-13 18:10:17,094 INFO train.py line 405 503095] Class_6 Result: IoU / Acc 46.58/61.19
+[2022-12-13 18:10:17,094 INFO train.py line 405 503095] Class_7 Result: IoU / Acc 69.15/81.92
+[2022-12-13 18:10:17,094 INFO train.py line 405 503095] Class_8 Result: IoU / Acc 79.53/92.68
+[2022-12-13 18:10:17,094 INFO train.py line 405 503095] Class_9 Result: IoU / Acc 32.15/43.24
+[2022-12-13 18:10:17,094 INFO train.py line 405 503095] Class_10 Result: IoU / Acc 59.43/65.62
+[2022-12-13 18:10:17,094 INFO train.py line 405 503095] Class_11 Result: IoU / Acc 53.60/80.75
+[2022-12-13 18:10:17,094 INFO train.py line 405 503095] Class_12 Result: IoU / Acc 47.11/67.18
+[2022-12-13 18:10:17,094 INFO train.py line 406 503095] <<<<<<<<<<<<<<<<< End Evaluation <<<<<<<<<<<<<<<<<
+[2022-12-13 18:16:02,329 INFO train.py line 326 503095] Epoch: [67/100][250/765] Batch 1.769 (1.381) Remain 09:52:52 Loss 0.0770 Accuracy 96.74
+[2022-12-13 18:21:49,997 INFO train.py line 326 503095] Epoch: [67/100][500/765] Batch 1.967 (1.386) Remain 09:49:11 Loss 0.0578 Accuracy 96.94
+[2022-12-13 18:27:18,393 INFO train.py line 326 503095] Epoch: [67/100][750/765] Batch 1.344 (1.362) Remain 09:33:17 Loss 0.0506 Accuracy 97.62
+[2022-12-13 18:27:39,328 INFO train.py line 345 503095] Train result at epoch [67/100]: mIoU / mAcc / OA 91.46 / 97.56 / 96.34
+[2022-12-13 18:27:39,330 INFO train.py line 351 503095] >>>>>>>>>>>>>>>> Start Evaluation >>>>>>>>>>>>>>>>
