@@ -16,3 +16,6 @@ Classification training is finished in the previous week. Took about 11 hours fo
 
 16/12/2022
 Restarted Classification training to check reproducibility. Saved a copy of prev logs at 16122022log.zip. Also tried running repseurf_ssg_umbx2 (changed script gpu selection & train.py address) but got cuda kernel error currently.
+
+17/12/2022
+Second Training with seed=2800 (default) is finished and logs are saved under 17122022.zip. Another training w/ seed=3900 is restarted (also changed the script repsurf_ssg_umb.sh) to match with the provided checkpoint (link at classification/readme.md). 

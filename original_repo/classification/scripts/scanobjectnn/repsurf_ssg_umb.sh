@@ -15,3 +15,4 @@ python3 train_cls_scanobjectnn.py \
           --group_size 8 \
           --umb_pool sum \
           --num_point 1024
+          --seed 3900
