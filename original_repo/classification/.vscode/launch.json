@@ -1,0 +1,32 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "purpose": ["debug-in-terminal"],
+            "args": ["--gpus", "0",
+            "--cuda_ops", 
+            "--batch_size", "64", 
+            "--model", "repsurf.repsurf_ssg_umb", 
+            "--epoch", "250", 
+            "--log_dir", "repsurf_cls_ssg_umb", 
+            "--gpus", "0" ,
+            "--n_workers" ,"12" ,
+            "--return_center" ,
+            "--return_dist" ,
+            "--return_polar" ,
+            "--group_size", "8" ,
+            "--umb_pool", "sum" ,
+            "--num_point" ,"1024"
+        ]
+        }
+    ]
+}

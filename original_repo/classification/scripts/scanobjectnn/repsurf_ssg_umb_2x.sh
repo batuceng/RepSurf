@@ -7,7 +7,7 @@ python3 train_cls_scanobjectnn.py \
           --model repsurf.repsurf_ssg_umb_2x \
           --epoch 250 \
           --log_dir repsurf_cls_ssg_umb_2x \
-          --gpus 1 \
+          --gpus 0 \
           --n_workers 12 \
           --return_center \
           --return_dist \

@@ -131,3 +131,6 @@ dmypy.json
 
 original_repo/classification/data
 original_repo/segmentation/data
+
+original_repo/classification/1612logs
+original_repo/classification/1712logs

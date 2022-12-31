@@ -19,3 +19,6 @@ Restarted Classification training to check reproducibility. Saved a copy of prev
 
 17/12/2022
 Second Training with seed=2800 (default) is finished and logs are saved under 17122022.zip. Another training w/ seed=3900 is restarted (also changed the script repsurf_ssg_umb.sh) to match with the provided checkpoint (link at classification/readme.md). 
+
+31.12.2022
+Started a detailed inspection of ScanObjectNN dataset to see the ground truths together with predictions. According to the original ScanObjectNN paper and Respsurf paper, it is claimed that there are 2902 point cloud images exists in the dataset. However, when we have downloaded the dataset shared by the authors in order to reproduce the experiments, we have seen that there are 2882 point cloud images exist. 

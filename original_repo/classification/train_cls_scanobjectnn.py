@@ -2,7 +2,7 @@
 Author: Haoxi Ran
 Date: 05/10/2022
 """
-
+#%%
 from functools import partial
 
 import argparse
@@ -67,7 +67,7 @@ def parse_args():
     return parser.parse_args()
 
 
-def test(model, loader, num_class=15, num_point=1024, num_votes=10, total_num=1):
+def   test(model, loader, num_class=15, num_point=1024, num_votes=10, total_num=1):
     vote_correct = 0
     sing_correct = 0
     classifier = model.eval()
@@ -104,7 +104,7 @@ def test(model, loader, num_class=15, num_point=1024, num_votes=10, total_num=1)
 
     sing_acc = sing_correct.item() / total_num
     vote_acc = vote_correct.item() / total_num
-
+    
     return sing_acc, vote_acc
 
 
@@ -162,7 +162,7 @@ def main(args):
     '''MODEL BUILDING'''
     classifier = torch.nn.DataParallel(get_model(args)).cuda()
     criterion = get_loss().cuda()
-
+    print("mesi")
     try:
         checkpoint = torch.load(str(experiment_dir) + '/checkpoints/best_model.pth')
         start_epoch = checkpoint['epoch']
