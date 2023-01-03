@@ -118,6 +118,7 @@ def main(args):
     set_seed(args.seed)
 
     '''CREATE DIR'''
+    # 
     experiment_dir = Path(os.path.join(args.log_root, 'PointAnalysis', 'log'))
     experiment_dir.mkdir(exist_ok=True)
     experiment_dir = experiment_dir.joinpath('ScanObjectNN')
@@ -162,7 +163,6 @@ def main(args):
     '''MODEL BUILDING'''
     classifier = torch.nn.DataParallel(get_model(args)).cuda()
     criterion = get_loss().cuda()
-    print("mesi")
     try:
         checkpoint = torch.load(str(experiment_dir) + '/checkpoints/best_model.pth')
         start_epoch = checkpoint['epoch']
@@ -177,7 +177,7 @@ def main(args):
 
     '''OPTIMIZER'''
     if args.optimizer == 'Adam':
-        optimizer = torch.optim.Adam(
+         optimizer = torch.optim.Adam(
             classifier.parameters(),
             lr=args.learning_rate,
             betas=(0.9, 0.999),
