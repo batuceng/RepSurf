@@ -47,3 +47,11 @@
 3	15045	1670261495	knnquery_heap_cuda_kernel.cuda.o	11f6e40191dadc8c
 6	15174	1670261496	sampling_cuda_kernel.cuda.o	a5908bbaede966c8
 15174	15526	1670261496	pointops_cuda.so	63047021cb757b4e
+1	17150	1673172211	pointops_api.o	d6c12fd800cf1020
+4	37839	1673172232	grouping_cuda_kernel.cuda.o	c2316ae0148e3564
+5	37983	1673172232	interpolation_cuda_kernel.cuda.o	51919dbfa8f52d86
+5	38786	1673172233	grouping_int_cuda_kernel.cuda.o	475669cdf0b4fadd
+3	38993	1673172233	knnquery_heap_cuda_kernel.cuda.o	d36e18767078876f
+6	39521	1673172233	sampling_cuda_kernel.cuda.o	7eff9409b809d77b
+1	39631	1673172233	ballquery_cuda_kernel.cuda.o	f649e87e153bf6fa
+2	39792	1673172234	knnquery_cuda_kernel.cuda.o	201ce8def7b24f0

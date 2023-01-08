@@ -18,6 +18,7 @@ from modules.ptaug_utils import transform_point_cloud, scale_point_cloud, get_au
 from modules.pointnet2_utils import sample
 from util.utils import get_model, get_loss, set_seed, weight_init
 
+import time
 
 def parse_args():
     """PARAMETERS"""
@@ -241,12 +242,14 @@ def main(args):
         train_instance_acc = train_correct.item() / (loader_len * args.batch_size)
         train_mean_loss = np.mean(train_loss)
         log_string('Train Instance Accuracy: %.2f, Loss: %f' % (train_instance_acc * 100, train_mean_loss))
-
+        # INFERENCE
         if epoch >= args.min_val:
             with torch.no_grad():
+                start_time = time.time()
                 sing_acc, vote_acc = test(classifier.eval(), testDataLoader, num_point=args.num_point,
                                           total_num=len(TEST_DATASET))
-
+                end_time = time.time()
+                log_string(f"Inference took {start_time - end_time} seconds")
                 if sing_acc >= best_sing_acc:
                     best_sing_acc = sing_acc
                 if vote_acc >= best_vote_acc:
