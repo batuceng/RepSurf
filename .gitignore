@@ -132,5 +132,6 @@ dmypy.json
 original_repo/classification/data
 original_repo/segmentation/data
 
-original_repo/classification/1612logs
-original_repo/classification/1712logs
+original_repo/classification/1612logs/log/PointAnalysis/log/ScanObjectNN/repsurf_cls_ssg_umb/checkpoints/best_model.pth
+original_repo/classification/1712logs/log/PointAnalysis/log/ScanObjectNN/repsurf_cls_ssg_umb/checkpoints/best_model.pth
+original_repo/classification/1712logs/log/PointAnalysis/log/ScanObjectNN/repsurf_cls_ssg_umb_2x/checkpoints/best_model.pth
